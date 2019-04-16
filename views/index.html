@@ -1,10 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
+
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+    <title>Home</title>
+    <link href="/stylesheets/style.css" rel="stylesheet" />
 </head>
+
 <body>
-	index
+    <div class="login" style="display:none">
+        <h2>商家登录 </h2>
+        <div class="login-top">
+            <h1>登录</h1>
+            <form>
+                <input type="text" id="username" placeholder="用户名" value="admin">
+                <input type="password" id="password" placeholder="******" value="admin">
+            </form>
+            <div class="forgot">
+                <a href="#">忘记密码？</a>
+                <input type="button" id="login" value="登录">
+            </div>
+        </div>
+        <div class="login-bottom">
+            <h3>400-000-0000</h3>
+        </div>
+    </div>
+    <div class="logined" style="display:none"></div>
 </body>
+<script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
+<script src="/javascripts/index.js"></script>
+
 </html>
